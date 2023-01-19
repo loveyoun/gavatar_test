@@ -1,0 +1,20 @@
+cloud:
+  aws:
+    s3:
+      bucket: sparrowavatartest
+    credentials:
+      accessKey:
+      secretKey:
+    region:
+      static: ap-northeast-2
+      auto: false
+    stack:
+      auto: false
+
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: ERROR
